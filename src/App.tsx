@@ -74,7 +74,7 @@ function App() {
   };
   return (
     <>
-      <div className="min-h-screen flex justify-center items-center bg-gray-100">
+      <div className="min-h-screen flex justify-center items-center bg-gray-200">
         <div className="flex flex-col gap-4 w-full max-w-md">
           <div className="border rounded-lg p-4 bg-white shadow">
             <Todoform formvalue={formvalue} edit={edit} handleChange={handleChange} handleSubmit={handleSubmit} />
