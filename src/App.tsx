@@ -28,7 +28,7 @@ function App() {
       setProductList((prev) => [
         ...prev,
         {
-          id: Date.now(),
+          id: 1,
           name: formvalue.name,
           complete: false,
         },
