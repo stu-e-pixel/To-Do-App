@@ -19,7 +19,7 @@ const Todoform: React.FC<TodoformProps> = ({ formvalue, edit, handleChange, hand
                 type="submit"
                 className="w-full bg-emerald-600 text-white py-2 rounded"
               >
-                {edit === null ? "Add Task" : "Edit"}
+                {edit === null ? "Add Task" : "Edit Task"}
               </button>
             </form>
     </>
